@@ -67,18 +67,18 @@ gulp.task("babel", function () {
 });
 gulp.task("default", ["babel"]);</code></pre></div></article><article class="center code-1"><div class="wrapper"><pre><code># package.info
 # …
-scripts": {
+"scripts": {
   "build": "gulp --verbose"
-},"
+},
 # …</code></pre></div></article><article class="center code-1"><div class="wrapper"><pre><code>npm run build</code></pre></div></article><article class="center code-1"><div class="wrapper"><pre><code>gulp.task("watch", ["babel"], function() {
   var watcher = gulp.watch('js/source/**/*.js',
                           ['babel']);
 });</code></pre></div></article><article class="center code-1"><div class="wrapper"><pre><code># package.info
 # …
-scripts": {
+"scripts": {
   "build": "gulp --verbose"
   "watch": "gulp watch --verbose"
-},"
+},
 # …</code></pre></div></article><article class="center code-1"><div class="wrapper"><pre><code>npm run watch</code></pre></div></article><article class="illustration illustration--m"></article><article class="center code-1"><div class="wrapper"><pre><code>// moses.js
 class Moses {
     constructor () {
