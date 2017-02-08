@@ -1072,6 +1072,36 @@ article.screen.screen--sandbox {
   -webkit-transform-origin: 10px -198px;
           transform-origin: 10px -198px;
 }
+.illustration.illustration--ok.cloud {
+  background-image: url("../images/ok.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.illustration.illustration--ok.cloud h1 {
+  width: 300px;
+  height: 300px;
+  left: 10px;
+  right: 0;
+  bottom: 140px;
+  line-height: 300px;
+  text-align: center;
+}
+.illustration.illustration--ok.cloud h1 .wrapper {
+  font-size: 46px;
+  line-height: 48px;
+  text-align: center;
+}
+.illustration.illustration--ok.cloud h1 .wrapper b {
+  display: block;
+  font-size: 48px;
+  line-height: 56px;
+}
+.illustration.illustration--ok.cloud h1:after {
+  -webkit-transform: rotate(195deg);
+          transform: rotate(195deg);
+  -webkit-transform-origin: 10px -140px;
+          transform-origin: 10px -140px;
+}
 .illustration.illustration--speed.cloud {
   background-image: url("../images/speed.png");
   background-position: 50% 50%;
