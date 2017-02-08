@@ -771,7 +771,8 @@ html body section#slides article iframe.half:last-child {
   content: "> ";
   font-style: normal;
 }
-ol.special {
+ol.special,
+ol.special ol {
   list-style: none !important;
   counter-reset: list-item;
 }
